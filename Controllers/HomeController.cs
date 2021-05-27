@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using newsletter.Models;
 
 namespace newsletter.Controllers
 {
@@ -19,6 +20,10 @@ namespace newsletter.Controllers
 
         public IActionResult Index()
         {
+            return View();
+        }
+        public IActionResult Cadastro(Usuario Usuario){
+            baseDados.incluir(Usuario);
             return View();
         }
 

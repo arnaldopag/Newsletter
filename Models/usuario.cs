@@ -1,11 +1,11 @@
 namespace newsletter.Models
 {
-    public class usuario
+    public class Usuario
     {
-        string nome {get; set;};
+        public string Nome { get; set; }
 
-        string genero {get; set;};
-        
-        string email {get; set;};
+        public string Genero { get; set; }
+
+        public string Email { get; set; }
     }
 }

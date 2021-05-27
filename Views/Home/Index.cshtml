@@ -1,8 +1,28 @@
-﻿@{
+﻿@using newsletter.Models
+@model Usuario
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Cadastro Newsletter</h2>
+<form asp-action="Cadastro" method="POST">
+    <p>
+        <label asp-for="Nome">Nome:</label>
+        <input asp-for="Nome"/>
+    </p>
+    <p>
+        <label asp-for="Email">Emai:</label>
+        <input asp-for="Email"/>
+    </p>
+    <p>
+        <label asp-for="Genero">Genero:</label>
+        <input asp-for="Genero" type="radio" value="M"/>Masculino
+        <input asp-for="Genero" type="radio" value="F"/>Feminino
+    </p>
+    <input type="submit" value="Cadastrar"/>
+
+
+
+
+
+</form>

@@ -32,3 +32,4 @@ C:\Users\dinhu\OneDrive\Documentos\Projetos\C#\newsletter\obj\Debug\netcoreapp3.
 C:\Users\dinhu\OneDrive\Documentos\Projetos\C#\newsletter\obj\Debug\netcoreapp3.1\staticwebassets\newsletter.StaticWebAssets.xml
 C:\Users\dinhu\OneDrive\Documentos\Projetos\C#\newsletter\obj\Debug\netcoreapp3.1\newsletter.genruntimeconfig.cache
 C:\Users\dinhu\OneDrive\Documentos\Projetos\C#\newsletter\obj\Debug\netcoreapp3.1\newsletter.csproj.CopyComplete
+C:\Users\dinhu\OneDrive\Documentos\Projetos\C#\newsletter\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs

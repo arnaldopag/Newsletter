@@ -4,14 +4,13 @@ namespace newsletter.Models
 {
     public static class baseDados
     {
-        private static List<usuario> dados = null; 
+        private static List<Usuario> dados = new List<Usuario>(); 
 
-        public static void incluir(usario u){
+        public static void incluir(Usuario u){
             dados.Add(u);
         }
-
-
-        public static List<usuario> listar(){
+        
+         public static List<Usuario> listar(){
             return dados;
         }
     }
