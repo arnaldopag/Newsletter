@@ -22,10 +22,11 @@ namespace newsletter.Controllers
         {
             return View();
         }
-        public IActionResult Cadastro(Usuario Usuario){
+        public IActionResult Cadastro(Usuario Usuario)
+        {
             baseDados.incluir(Usuario);
-            return View();
+            List<Usuario> lista = baseDados.listar();
+            return View(lista);
         }
-
     }
 }

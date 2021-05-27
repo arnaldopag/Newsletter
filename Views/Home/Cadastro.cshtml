@@ -1,5 +1,5 @@
 @using newsletter.Models
-@Model List<Usuario>
+@model List<Usuario>
 <h2>Usuário cadastrado com Sucesso!</h2>
 
 <table>
@@ -13,11 +13,13 @@
         @foreach (Usuario u in Model)
             {
             <tr>
-                <td>@Model.Nome</td>
-                <td>@Model.Email</td>
-                <td>@Model.Genero</td>
+                <td>@u.Nome</td>
+                <td>@u.Email</td>
+                <td>@u.Genero</td>
             </tr>
             }
     </tbody>
-    </thead>
+    </thead>    
 </table>
+
+<a href="/">Voltar</a>
